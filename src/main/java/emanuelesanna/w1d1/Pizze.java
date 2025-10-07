@@ -17,6 +17,7 @@ public class Pizze extends OggettoMenu {
         this.formatoXL = formatoXL;
     }
 
+
     public double getPrezzoPizzaXL() {
         return formatoXL ? getPrice() + 2.00 : getPrice();
     }
